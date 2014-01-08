@@ -2,10 +2,61 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>title</title>
-    <script src="script.js"></script>
+    <title>World Cup 2014</title>
+ <!--   <script src="script.js"></script> -->
   </head>
   <body>
-    <!-- page content -->
+  	
+    <form  name="groupA" onSubmit="alert(this.A1.value);" action="" >
+      <table border="0">
+    	<tr>
+    		<td>GROUP A</td>
+    		<td>1st</td>
+    		<td>2nd</td>
+    	</tr>
+    	<tr>
+    		<td>Brazil</td>
+    		<td><input type="radio" name="A1" value="Brazil"></td>
+    		<td><input type="radio" name="A2" value="Brazil"></td>
+    	</tr>
+    	<tr>
+    		<td>Croatia</td>
+    		<td><input type="radio" name="A1" value="Croatia"></td>
+    		<td><input type="radio" name="A2" value="Croatia"></td>
+    	</tr>
+    	<tr>
+    		<td>Mexico</td>
+    		<td><input type="radio" name="A1" value="Mexico"></td>
+    		<td><input type="radio" name="A2" value="Mexico"></td>
+    	</tr>
+    	<tr>
+    		<td>Cameroon</td>
+    		<td><input type="radio" name="A1" value="Cameroon"></td>
+    		<td><input type="radio" name="A2" value="Cameroon"></td>
+    	</tr>
+   		<table>
+        <p>
+          <input type="button" onclick="myFunction()" value="Submit">
+        </p>
+    </form>
+
+<script>
+function myFunction()
+{
+var winnerGroupA = document.forms[0].A1;
+var txt = "";
+var i;
+for (i=0;i<A1.length;i++)
+  {
+  if (A1[i].checked)
+    {
+    txt = txt + A1[i].value + " ";
+    }
+  }
+};
+alert(A1);
+</script>
+
+
   </body>
 </html>
