@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>World Cup 2014</title>
- <!--   <script src="script.js"></script> -->
+    <script src="script.js"></script>
   </head>
   <body>
   	
-    <form  name="groupA" onSubmit="alert(this.A1.value);" action="" >
+    <form name="groupA" action="javascript:getWinner();" >
       <table border="0">
     	<tr>
     		<td>GROUP A</td>
@@ -36,26 +36,10 @@
     	</tr>
    		<table>
         <p>
-          <input type="button" onclick="myFunction()" value="Submit">
+          <input type="submit" value="Submit">
         </p>
     </form>
 
-<script>
-function myFunction()
-{
-var winnerGroupA = document.forms[0].A1;
-var txt = "";
-var i;
-for (i=0;i<A1.length;i++)
-  {
-  if (A1[i].checked)
-    {
-    txt = txt + A1[i].value + " ";
-    }
-  }
-};
-alert(A1);
-</script>
 
 
   </body>

@@ -1,31 +1,26 @@
-// javascript goes here
 
-function submitForm() {
-	var A1 = findSelection("A1") ;
-	alert(A1);
-}
+function getWinner()
+{
+    for (var i = 0; i < 4; i++)
+    {
+    	if (document.getElementsByName('A1')[i].checked)
+    	{
+    		var winnerGroupA = document.getElementsByName('A1')[i].value);
+				break;
+    	}
+    } 
 
-alert($('input[name="A1"]:checked').val());
+    /* for (var y = 0; y < 4; y++)
+    {
+    	if (document.getElementsByName('A2')[y].checked)
+    	{
+    		var runnerUpGroupA = document.getElementsByName('A2')[y].value);
+    		break;
+    	}
+    } */
 
-/* var groupAWinner = document.getElementsByName("A1");
-// var roupARunnerUp = document.groupA.A2;
+};
 
-for (var i = 0, length = radios.length; i < length; i++) {
-	if (radios[i].checked) {
-		alert(radios[i].value);
-	}
-}
+alert("done");
 
-/*
-if (document.groupAWinner.A1[0].checked){
-	document.writeIn("Brazil won.")
-}  */
-
-
-/* for (i=0; i <groupAWinner.length; i++) {
-        if (groupAWinner[i].checked) {
-          alert(groupAWinner[i]Value)
-          break
-        }
-      }
 
