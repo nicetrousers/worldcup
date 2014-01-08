@@ -1,26 +1,40 @@
-
-function getWinner()
+function groupA()
 {
-    for (var i = 0; i < 4; i++)
+
+    var A1 = "";
+    var A2 = "";
+
+    function getWinnerA()
     {
-    	if (document.getElementsByName('AW')[i].checked)
-    	{
-    		alert(document.getElementsByName('AW')[i].value));
-			break;
-    	}
-    } 
+       for (var i = 0; i < 4; i++)
+        {
+        	if (document.getElementsByName('AW')[i].checked)
+        	{
+        		A1 = (document.getElementsByName('AW')[i].value);
+    			break;
+        	}
+        } 
+    };
 
-    /* for (var y = 0; y < 4; y++)
+
+    function getRunnerUpA()
     {
-    	if (document.getElementsByName('A2')[y].checked)
-    	{
-    		var runnerUpGroupA = document.getElementsByName('A2')[y].value);
-    		break;
-    	}
-    } */
+        for (var i = 0; i < 4; i++)
+        {
+            if (document.getElementsByName('ARU')[i].checked)
+            {
+                A2 = (document.getElementsByName('ARU')[i].value);
+                break;
+            }
+        }
+    }; 
 
-};
-
-alert(A1);
+    // alert("done2");
 
 
+    function returnGroupA(A1, A2)
+    {
+        alert(A1 + ", " + A2);
+    };
+
+ };
