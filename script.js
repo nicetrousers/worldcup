@@ -3,10 +3,10 @@ function getWinner()
 {
     for (var i = 0; i < 4; i++)
     {
-    	if (document.getElementsByName('A1')[i].checked)
+    	if (document.getElementsByName('AW')[i].checked)
     	{
-    		var winnerGroupA = document.getElementsByName('A1')[i].value);
-				break;
+    		alert(document.getElementsByName('AW')[i].value));
+			break;
     	}
     } 
 
@@ -21,6 +21,6 @@ function getWinner()
 
 };
 
-alert("done");
+alert(A1);
 
 
