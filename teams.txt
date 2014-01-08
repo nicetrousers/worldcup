@@ -1,0 +1,76 @@
+world cup
+
+A
+Brazil
+Croatia
+Mexico
+Cameroon
+
+B
+Spain
+Netherlands
+Chile
+Australia
+
+C
+Colombia
+Greece
+Cote d'Ivoire
+Japan
+
+D
+Uruguay
+Costa Rica
+England
+Italy
+
+E 
+Switzerland
+Ecuador
+France
+Honduras
+
+F
+Argentina
+Bosnia & Herzegovina
+Iran
+Nigeria
+
+G
+Germany
+Portugal
+Ghana
+USA
+
+H
+Belgium
+Algeria
+Russia
+Korea Republic
+
+
+ROUND OF 16
+49	1A	 -	2B	
+50	1C	 -	2D	
+51	1B	 -	2A	
+52	1D	 -	2C	
+53	1E	 -	2F	
+54	1G	 -	2H	
+55	1F	 -	2E	
+56	1H	 -	2G	
+
+QUARTER-FINALS
+57	W49	 -	W50	
+58	W53	 -	W54	
+59	W51	 -	W52	
+60	W55	 -	W56	
+
+SEMI-FINALS
+61		W57	 -	W58	
+62		W59	 -	W60	
+
+PLAY-OFF FOR THIRD PLACE
+63		L61	 -	L62	
+
+FINAL
+64		W61	 -	W62	
